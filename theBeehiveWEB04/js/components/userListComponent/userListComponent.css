@@ -1,0 +1,8 @@
+.userListComponent {
+    position: fixed;
+    top: var(--navbar-height);
+    width: 100vw;
+    height: calc(100vh - var(--navbar-height));
+    background-color: var(--main-background);
+    overflow: scroll;
+}

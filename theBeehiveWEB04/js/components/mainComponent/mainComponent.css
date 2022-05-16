@@ -1,0 +1,9 @@
+.mainComponent {
+    position: fixed;
+    background-color: var(--main-background);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+}

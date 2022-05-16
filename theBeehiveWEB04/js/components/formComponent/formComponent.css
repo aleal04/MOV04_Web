@@ -1,0 +1,51 @@
+.formComponent {
+    position: fixed;
+    top: var(--navbar-height);
+    width: 100vw;
+    height: calc(100vh - var(--navbar-height));
+    /* pointer-events: none; */
+}
+
+.formComponent_fade {
+    position: fixed;
+    background-color: var(--fade);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.formComponent_displayContainer {
+    position: fixed;
+    background-color: var(--main-background);
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formComponent_inputContainer {
+    width: 90%;
+    height: auto;
+}
+
+.formComponent_title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.formComponent_addBtn {
+    width: 100%;
+    height: 40px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}

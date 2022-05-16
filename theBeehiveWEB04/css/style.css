@@ -1,0 +1,91 @@
+
+/**
+* @name style.css
+* @file Add a small description for this file.
+* @author <Add Your Name Here> <addyouremail@mail.com>
+* @version 1.0.0
+*/
+    
+:root {
+    --primary-color: #1D2427;
+    --secondary-color: #E15241;
+    --component-background:#c2c2c2;
+    --comment-background:#959595;
+    --main-background: white;
+    --navbar-height:60px;
+    --fade:rgba(9, 6, 6, 0.5);
+    --error-color:red;
+    --isOwner-color:rgb(156, 222, 255);
+    /* --component-background:#EAEEF0; */
+}
+
+* { padding: 0; margin: 0; font-family: Arial, Helvetica, sans-serif; }
+h1 { color:var(--primary-color) }
+h2 { color:var(--secondary-color) }
+
+input {
+    -webkit-appearance: none; 
+    box-shadow: none !important; 
+    outline-style: none;
+    outline: none;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #c2c2c2;
+}
+
+:-webkit-autofill { color: #fff !important; }
+
+button:focus {
+    -webkit-appearance: none; 
+    box-shadow: none;
+    outline: none;
+}
+
+.hidden {
+    display: none !important;
+    /* pointer-events: none; */
+}
+
+.showing {
+    pointer-events: all;
+}
+
+.requireHTTPS {
+    position: fixed;
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--error-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.installBtn {
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    outline:none;
+
+    background-color: var(--primary-color);
+    height: calc(var(--navbar-height) - 20px);
+    width: 50%;
+
+    border-radius: 10px;
+}
+
+.installContainer {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--secondary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

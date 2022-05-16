@@ -1,0 +1,29 @@
+{
+    "short_name": "TheBeehive",
+    "name": "An app to share",
+    "icons": [
+        {
+            "src": "/src/images/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/src/images/icon196.png",
+            "type": "image/png",
+            "sizes": "196x196"
+        },
+        {
+            "src": "/src/images/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#1D2427",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#1D2427",
+    "description": "",
+    "prefer_related_application": true
+}

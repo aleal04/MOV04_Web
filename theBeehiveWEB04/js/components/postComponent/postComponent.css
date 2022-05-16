@@ -1,0 +1,36 @@
+.postComponent {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--component-background);
+    width: calc(100% - 10px);
+    margin: 5px 0px 0px 5px;
+}
+
+.postComponent_title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 5px 0px 5px;
+}
+
+.postComponent_body {
+    font-size: 18px;
+    margin: 5px 5px 5px 5px;
+}
+
+.postComponent_addBtn {
+    width: calc(100% - 10px);
+    height: 40px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0px 5px 5px;
+    border-radius: 5px;
+}
+
+.postComponent_comments_container {
+    /* margin-top: 5px; */
+}

@@ -1,0 +1,29 @@
+.inputComponent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.inputComponent_label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.inputComponent_input {
+    font-size: 16px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.inputComponent_input_error {
+    border-color: var(--error-color);
+}
+
+.inputComponent_error {
+    margin-top: 2px;
+    color: var(--error-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+

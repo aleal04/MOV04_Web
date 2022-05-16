@@ -1,0 +1,17 @@
+.navbarComponent {
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarComponent_backBtn {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.navbarComponent_backBtnIcon {
+    width: 100%;
+    height: auto;
+}
